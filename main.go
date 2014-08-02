@@ -9,7 +9,7 @@ import (
 
 // indexTemplate is the HTML template we use to present the index page.
 var (
-	indexTemplate   = template.Must(template.ParseFiles("index.min.html"))
+	indexTemplate = template.Must(template.ParseFiles("index.min.html"))
 )
 
 // index serves the index page
