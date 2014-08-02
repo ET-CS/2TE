@@ -1,0 +1,14 @@
+#from _layout import layout
+#extends layout
+#def title
+{{ .Title }}
+#end def
+#def css
+#include raw "index.css"
+#end def
+#def js
+#include raw "index.min.js"
+#end def
+#def body
+$hello {{ .ApplicationName }}
+#end def
