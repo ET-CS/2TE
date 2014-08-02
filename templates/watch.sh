@@ -7,5 +7,5 @@ popd > /dev/null
 
 while inotifywait -r -e modify -e close_write $SCRIPTPATH
 do
-    ./COMPILE
+    ./render.sh
 done
