@@ -12,7 +12,7 @@ var (
 	indexTemplate   = template.Must(template.ParseFiles("index.min.html"))
 )
 
-// index sets up a session for the current user and serves the index page
+// index serves the index page
 func index(w http.ResponseWriter, r *http.Request) *appError {
 	// Fill in the missing fields in index.html
 	var data = struct {

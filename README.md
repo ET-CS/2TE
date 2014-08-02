@@ -22,7 +22,7 @@ if you want to make changes and render the .tmpl files or .scss files you need:
 ## How to use
 
 run server using: go run main.go and browse http://127.0.0.1:8080 to see result.
-if you don't have golang install you can run the supplied main binary instead
+if you don't have golang installed you can run the supplied main binary instead
 
 ## Edit HTML/CSS/JS
 
