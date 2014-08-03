@@ -6,6 +6,8 @@ Two Template Engines (in one app) usage example - Cheeta (Python) / SCSS / JS / 
 This is a VERY simple/basic/skeleton example of how I work with template
 engine in my web development.
 
+[Read more][http://itekblog.com/template-engine-need-two/] about why I use two template engines in one app and about this example.
+
 ## Requirements
 
 * Golang
